@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 
 
 android {
-    compileSdkVersion flutter.targetSdkVersion
+    compileSdkVersion flutter.compileSdkVersion
 
     defaultConfig {
         minSdkVersion flutter.minSdkVersion
