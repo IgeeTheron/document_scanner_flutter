@@ -101,7 +101,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
   @override
   Widget build(BuildContext context) {
     var appBar = AppBar(
-      automaticallyImplyLeading: false,
+      automaticallyImplyLeading: true,
       title: Row(
         children: [
           if (files.isNotEmpty) Text(itemsTitle),
